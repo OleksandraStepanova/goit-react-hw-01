@@ -1,0 +1,33 @@
+.container {
+  border-radius: 10px;
+  border: 2px solid #000000;
+  width: 120px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px;
+}
+.avatar {
+  width: 90px;
+}
+
+.name {
+  font-size: 28px;
+  margin: 20px 0 10px;
+}
+
+.stats {
+  margin: 0;
+  font-size: 20px;
+}
+
+.online {
+  color: darkgreen;
+}
+
+.offline {
+  color: crimson;
+}
